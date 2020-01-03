@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>r/BAPCSalesCanada Tracker</title>
-        <script src="jquery-3.4.1.min.js"></script>
+        <title>Test</title>
+        <link rel="stylesheet" a href="resources/css/bootstrap.min.css"/>
+        <link rel="stylesheet" a href="resources/css/bootstrap-select.min.css"/>
+        <link rel="stylesheet" a href="resources/css/customcss.css"/>
+        <script src="resources/js/jquery-3.4.1.min.js"></script>
+        <script src="resources/js/bootstrap.bundle.min.js"></script>
+        <script src="resources/js/bootstrap-select.min.js"></script>
         <script src="popup.js"></script>
     </head>
     <body>
         <h1>r/BAPCSalesCanada Tracker</h1>
-        <div id="itemList">
-        </div>
-        <div>
-            <select name="Input" id="Input">
+        <div class="options">
+            <select class="selectpicker show-tick" data-dropup-auto="false" name="Input" id="Input">
                 <option value="CASE">CASE</option>
                 <option value="CPU">CPU</option>
                 <option value="GPU">GPU</option>
@@ -21,7 +24,10 @@
                 <option value="RAM">RAM</option>
                 <option value="SSD">SSD</option>
             </select>
-            <input class="btn btn-primary sub-btn" type="submit" id="Submit"/>
+            <button type="button" class="btn btn-primary btn-input" id="Add">Add</button>
+            <button type="button" class="btn btn-primary btn-input" id="Delete">Delete</button>
+        </div>
+        <div class="itemList" id="itemList">
         </div>
     </body>
 </html>

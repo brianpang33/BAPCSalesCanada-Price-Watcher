@@ -1,0 +1,49 @@
+body {
+    width:400px;
+    height:600px;
+    background-color: #232931; 
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    background-color: #393E46; 
+}
+
+h5 {
+    background-color: #393E46; 
+}
+
+.btn-input {
+    background-color: #393E46;
+}
+
+.card {
+    background-color: #393E46; 
+}
+
+.btn-link {
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+.options {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-bottom: 2px;
+    margin-left: 10px;
+    margin-right: 12px;
+}

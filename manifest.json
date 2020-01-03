@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "test",
+    "name": "r/BAPCSalesCanada Tracker",
     "version": "1.0",
-    "description": "test",
+    "description": "Tracks the prices of items from r/BAPCSalesCanada and gives an alert when new items are found",
     "browser_action": {
         "default_popup": "popup.html"
     },
@@ -10,7 +10,7 @@
         "storage"
     ],
     "background": {
-        "scripts":["jquery-3.4.1.min.js", "background.js"],
+        "scripts":["resources/js/jquery-3.4.1.min.js", "background.js"],
         "persistent": false
     }
 }
